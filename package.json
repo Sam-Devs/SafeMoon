@@ -1,0 +1,15 @@
+{
+  "name": "SafeMoon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Sam-Devs/SafeMoon.git",
+  "author": "Sam Ayorinde <41350405+Sam-Devs@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.0",
+    "@truffle/hdwallet-provider": "^1.2.3"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.7"
+  }
+}
