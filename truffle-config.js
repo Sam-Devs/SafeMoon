@@ -1,12 +1,17 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const privateKeys = ['0x + PRIVATE_KEY']; 
+const privateKeys = ['0xcbc47d92837425ea30b2cec32ce5b458220a52c38e8f16fad25fac7313a36cd1', "0x10cac7b34bd6ba09eac6119b01cd3e0675da1870173edd0560026a85923a454c"]; 
+// const privateKeys = "cbc47d92837425ea30b2cec32ce5b458220a52c38e8f16fad25fac7313a36cd1"; "10cac7b34bd6ba09eac6119b01cd3e0675da1870173edd0560026a85923a454c"
 
 /**
  * Use this file to configure your truffle project. It's seeded with some
  * common settings for different networks and features like migrations,
  * compilation and testing. Uncomment the ones you need or modify
  * them to suit your project as necessary.
- *
+ *"Migrations" could not deploy due to insufficient funds
+   * Account:  0x2F3aB5e5cD3661Ad16085250FD67e5B9724Bf945
+   * Balance:  0 wei
+   * Message:  insufficient funds for gas * price + value
+   * Try:
  * More information about configuration can be found at:
  *
  * trufflesuite.com/docs/advanced/configuration
@@ -120,7 +125,7 @@ module.exports = {
     'truffle-plugin-verify'
   ],
  api_keys: {
-   bscscan: 'BSCSCAN API KEY'
+   bscscan: '95682ECZTR5WY2YP3QBBHKECPGIVU4VZD5'
  },
 
   // Truffle DB is currently disabled by default; to enable it, change enabled: false to enabled: true

@@ -1,9 +1,9 @@
-const SafemoonFork = artifacts.require('SafemoonFork.sol');
+const Safemoon = artifacts.require('Safemoon.sol');
 
 module.exports = function (deployer, network) {
   if(network === 'bscTestnet') {
-    deployer.deploy(SafemoonFork, '0xD99D1c33F9fC3444f8101754aBC46c52416550D1');
+    deployer.deploy(Safemoon, '0xdd5305e118eb253f752509c7e9c7a970cdda7aaa');
   } else {
-    deployer.deploy(SafemoonFork, '0x10ED43C718714eb63d5aA57B78B54704E256024E');
+    deployer.deploy(Safemoon, '0x130f747511d3581abc46654dd5f3d1b7910242d5');
   }
 };
